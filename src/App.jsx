@@ -1,12 +1,16 @@
 import React from "react"
-import Incio from "./components/pages/Inicio"
+import Rutas from "./routing/rutas"
 
 const App = () => {
 
   return (
     <>
-      <h1>Hola mundo</h1>
-      <Incio />
+      <div className="layout">
+
+          <Rutas/>
+
+      </div>
+      
     </>
   )
 }
