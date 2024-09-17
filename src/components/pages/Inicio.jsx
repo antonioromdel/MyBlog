@@ -1,9 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Incio = () => {
   return (
     <>
-        <h1>Esta es la página de inicio</h1>
+        <div className="jumbo">
+          <h1>Bienvenido al blog con React</h1>
+          <p>Blog desarrollado con el MERN Stack</p>
+          <Link to="/articulos" className='button'>Ver los artículos</Link>
+        </div>
     </>
   )
 }

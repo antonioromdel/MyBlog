@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
       <header className="header">
@@ -9,8 +9,10 @@ export const Header = () => {
 
                 </div>
             </div>
-            <h1 className="header__title">Mis Artículos</h1>
+            <h1 className="header__title">Mi Blog</h1>
         </header>
     </>
   )
 }
+
+export default Header

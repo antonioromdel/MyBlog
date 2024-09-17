@@ -18,7 +18,7 @@ export const Sidebar = () => {
           </form>
         </div>
 
-        <div className="add">
+        {/* <div className="add">
           <h3 className="title">Añadir Artículo</h3>
           <form >
             <input
@@ -36,7 +36,7 @@ export const Sidebar = () => {
             ></textarea>
             <button type="submit">Enviar</button>
           </form>
-        </div>
+        </div> */}
       </aside>
     </>
   );
