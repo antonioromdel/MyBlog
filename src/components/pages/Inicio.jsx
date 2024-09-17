@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Incio = () => {
+const Inicio = () => {
   return (
     <>
         <div className="jumbo">
@@ -13,4 +13,4 @@ const Incio = () => {
   )
 }
 
-export default Incio
+export default Inicio
