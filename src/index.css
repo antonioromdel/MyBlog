@@ -209,11 +209,8 @@ button{
     box-shadow: 0px 0px 6px #ddd;    
 }
 
-.edit_form input[type="text"],
-.edit_form textarea,
-.lateral input[type="text"],
-.lateral input[type="text"],
-.lateral textarea{
+input[type="text"],
+textarea{
     display: block;
     margin: 0 auto;
     margin-top: 15px;
@@ -225,6 +222,29 @@ button{
     opacity: 4;
     outline: 0;
     border-color: transparent;
+}
+
+.form_group{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form_group label{
+    display: block;
+    text-align: left;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.form_group input[type="text"],
+.form_group textarea,
+.form_group input[type="file"]
+{
+    border: 1px solid #ddd;
+    outline: 0;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .footer{
